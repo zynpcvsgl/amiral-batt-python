@@ -1,42 +1,21 @@
-# Battleships
+# 🛳️ Battleships
 
-#### Online battleships game
+**Battleships** is an online multiplayer strategy game where players compete to sink each other's ships on a grid-based board.
 
-Using [websockets](https://pypi.org/project/websockets/) to connect to the client.
+## 💻 Technologies Used
 
-[SQLite](https://www.sqlite.org/) database for storing account data and game logs (for players top)
+- **Python** – Server-side logic and websocket communication  
+- **WebSockets** – Real-time multiplayer functionality  
+- **SQLite** – Database for storing player accounts and game logs  
+- **JavaScript (JS)** – Client-side interface and game mechanics  
+- **HTML & CSS** – Front-end layout and styling
 
-And JS for the client-side
+## 🎮 Game Description
 
-## Play now
+Battleships is a classic two-player game where each player places their ships on a grid and takes turns guessing the location of the opponent’s ships. The objective is to sink all of your opponent’s ships before they sink yours.
 
-You can play in game [here](https://skrepkaq.ru/games/battleships/)!
+This project allows players to play the game online in real-time, competing with friends over a network connection.
 
-## Installation
+---
 
-1. Use the [pip](https://pip.pypa.io/en/stable/) to install libs from requirements.txt.
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Fill server/config.py file (if needed)
-3. Change IP and PORT in client/script.js file (if needed)
-
-## Usage
-
-#### Server
-Launch server:
-
-```bash
-python server/main.py
-```
-#### Client
-1. Open index.html from the client folder
-2. Create an account and play (you will need a friend)
-
-#### Debug
-You can find all errors in log/errors.log file
-
-## Contributing
-Pull requests and an issues are welcome!
+🛠 **Feel free to contribute by submitting pull requests or opening issues to improve the project.**
